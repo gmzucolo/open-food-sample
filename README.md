@@ -2,7 +2,9 @@
 
 - APi DOC
 1 -> https://openfoodfacts.github.io/api-documentation/
+
 2 -> https://openfoodfacts.github.io/api-documentation-staging/
+
 site -> https://world.openfoodfacts.org/
 
 
@@ -14,3 +16,5 @@ Objetivo ->
 
 
 Usar o app Open food facts como exemplo(Play Store)
+
+![image](https://user-images.githubusercontent.com/54336852/180322603-45e954f1-e64f-4406-97e5-b79abcb6cc2a.png)
