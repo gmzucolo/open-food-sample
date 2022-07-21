@@ -12,7 +12,9 @@ site -> https://world.openfoodfacts.org/
 
 Objetivo ->
 1-> Listar produtos por categoria
+
 2 -> Filtrar produto por nome ou categoria
+
 3 -> Exibir detalhes do produto como informações nutricionais e foto
 
 
