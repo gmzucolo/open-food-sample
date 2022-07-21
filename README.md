@@ -11,11 +11,16 @@ site -> https://world.openfoodfacts.org/
 
 - Code
 
-Arquitetura - MVVM
-Linguagem - Kotlin
+Arquitetura - MVVM,
+
+Linguagem - Kotlin,
+
 coroutines kotlin,
+
 retrofit,
+
 Hilt(injeção de dep),
+
 testes unitarios e instrumentados(JUNIT, ESPRESSO)
 
 obs: Passar o header (Authentication) conforme doc, utilizando Interceptor.
