@@ -1,4 +1,4 @@
-# open-food-sample
+# open-food-sample (Mentoria Android)
 
 - APi DOC
 
@@ -8,6 +8,17 @@
 
 site -> https://world.openfoodfacts.org/
 
+
+- Code
+
+Arquitetura - MVVM
+Linguagem - Kotlin
+usar - coroutines kotlin,
+retrofit,
+Hilt(injeção de dep),
+testes unitarios e instrumentados(JUNIT, ESPRESSO)
+
+obs: Passar o header (Authentication) conforme doc, utilizando Interceptor.
 
 
 Objetivo ->
