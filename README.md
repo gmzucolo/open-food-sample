@@ -13,7 +13,7 @@ site -> https://world.openfoodfacts.org/
 
 Arquitetura - MVVM
 Linguagem - Kotlin
-usar - coroutines kotlin,
+coroutines kotlin,
 retrofit,
 Hilt(injeção de dep),
 testes unitarios e instrumentados(JUNIT, ESPRESSO)
