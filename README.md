@@ -35,6 +35,6 @@ Objetivo ->
 3 -> Exibir detalhes do produto como informações nutricionais e foto
 
 
-Usar o app Open food facts como exemplo(Play Store)
+Usar o app Open food facts como exemplo(https://play.google.com/store/apps/details?id=org.openfoodfacts.scanner)
 
 ![image](https://user-images.githubusercontent.com/54336852/180322603-45e954f1-e64f-4406-97e5-b79abcb6cc2a.png)
