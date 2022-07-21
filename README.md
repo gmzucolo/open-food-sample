@@ -27,6 +27,7 @@ obs: Passar o header (Authentication) conforme doc, utilizando Interceptor.
 
 
 Objetivo ->
+
 1-> Listar produtos por categoria
 
 2 -> Filtrar produto por nome ou categoria
