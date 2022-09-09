@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import androidx.appcompat.app.AppCompatActivity
+import com.example.open_food_facts_sample.MainActivity
 import com.example.open_food_facts_sample.R
 
 
@@ -19,7 +20,7 @@ class SplashActivity : AppCompatActivity() {
     }
 
     private fun openHomeFragment() {
-        val intent = Intent(this@SplashActivity, NavigationActivity::class.java)
+        val intent = Intent(this@SplashActivity, MainActivity::class.java)
         startActivity(intent)
         finish()
     }
