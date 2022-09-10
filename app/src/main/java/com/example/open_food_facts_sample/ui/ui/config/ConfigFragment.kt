@@ -1,4 +1,4 @@
-package com.example.open_food_facts_sample.ui.ui.slideshow
+package com.example.open_food_facts_sample.ui.ui.config
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,11 +7,11 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.example.open_food_facts_sample.databinding.FragmentFoodBinding
+import com.example.open_food_facts_sample.databinding.FragmentConfigBinding
 
-class FoodFragment : Fragment() {
+class ConfigFragment : Fragment() {
 
-    private var _binding: FragmentFoodBinding? = null
+    private var _binding: FragmentConfigBinding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -22,14 +22,14 @@ class FoodFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val slideshowViewModel =
-            ViewModelProvider(this).get(FoodViewModel::class.java)
+        val configViewModel =
+            ViewModelProvider(this).get(ConfigViewModel::class.java)
 
-        _binding = FragmentFoodBinding.inflate(inflater, container, false)
+        _binding = FragmentConfigBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textSlideshow
-        slideshowViewModel.text.observe(viewLifecycleOwner) {
+        val textView: TextView = binding.textConfig
+        configViewModel.text.observe(viewLifecycleOwner) {
             textView.text = it
         }
         return root

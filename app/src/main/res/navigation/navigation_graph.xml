@@ -7,19 +7,25 @@
 
     <fragment
         android:id="@+id/nav_perfil"
-        android:name="com.example.open_food_facts_sample.ui.ui.home.PerfilFragment"
+        android:name="com.example.open_food_facts_sample.ui.ui.perfil.PerfilFragment"
         android:label="@string/menu_perfil"
         tools:layout="@layout/fragment_perfil" />
 
     <fragment
         android:id="@+id/nav_config"
-        android:name="com.example.open_food_facts_sample.ui.ui.gallery.ConfigFragment"
+        android:name="com.example.open_food_facts_sample.ui.ui.config.ConfigFragment"
         android:label="Conta"
         tools:layout="@layout/fragment_config" />
 
     <fragment
         android:id="@+id/nav_food"
-        android:name="com.example.open_food_facts_sample.ui.ui.slideshow.FoodFragment"
+        android:name="com.example.open_food_facts_sample.ui.ui.food.FoodFragment"
         android:label="Alimentos"
         tools:layout="@layout/fragment_food" />
+
+    <fragment
+        android:id="@+id/nav_search"
+        android:name="com.example.open_food_facts_sample.ui.ui.search.SearchFragment"
+        android:label="Busca"
+        tools:layout="@layout/fragment_search" />
 </navigation>

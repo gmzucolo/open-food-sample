@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
     private val navController by lazy {
-        supportFragmentManager.findFragmentById(R.id.nav_host_fragment_content_navigation)!!.findNavController()
+        supportFragmentManager.findFragmentById(R.id.bottom_nav_host_fragment_content_navigation)!!.findNavController()
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -22,20 +22,10 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        setTheme()
         setupBottomNavigation()
     }
 
     private fun setupBottomNavigation() {
-        //TODO fazer igual a NavigationActivity
         with(binding.bottomNavigation) { setupWithNavController(navController) }
-    }
-
-    private fun setTheme() {
-    }
-
-    private fun openAccountNavigationOptions() {
-        val intent = Intent(this@MainActivity, NavigationActivity::class.java)
-        startActivity(intent)
     }
 }

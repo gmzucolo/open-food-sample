@@ -6,7 +6,7 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_perfil"
-            android:icon="@drawable/ic_menu_account"
+            android:icon="@drawable/ic_menu_perfil"
             android:title="@string/menu_perfil" />
         <item
             android:id="@+id/nav_config"
@@ -15,7 +15,7 @@
         <item
             android:id="@+id/nav_food"
             android:icon="@drawable/ic_menu_list"
-            android:title="@string/menu_alimentos" />
+            android:title="@string/menu_food" />
         <item
             android:id="@+id/nav_logout"
             android:icon="@drawable/ic_menu_logout"

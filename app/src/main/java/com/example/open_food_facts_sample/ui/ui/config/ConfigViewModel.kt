@@ -1,4 +1,4 @@
-package com.example.open_food_facts_sample.ui.ui.gallery
+package com.example.open_food_facts_sample.ui.ui.config
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
