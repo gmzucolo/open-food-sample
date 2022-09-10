@@ -20,7 +20,7 @@ class SplashActivity : AppCompatActivity() {
     }
 
     private fun openHomeFragment() {
-        val intent = Intent(this@SplashActivity, MainActivity::class.java)
+        val intent = Intent(this@SplashActivity, NavigationActivity::class.java)
         startActivity(intent)
         finish()
     }

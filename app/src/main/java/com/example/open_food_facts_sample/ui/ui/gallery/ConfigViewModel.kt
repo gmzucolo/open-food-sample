@@ -1,13 +1,13 @@
-package com.example.open_food_facts_sample.ui.ui.home
+package com.example.open_food_facts_sample.ui.ui.gallery
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class HomeViewModel : ViewModel() {
+class ConfigViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is home Fragment"
+        value = "This is config Fragment"
     }
     val text: LiveData<String> = _text
 }
