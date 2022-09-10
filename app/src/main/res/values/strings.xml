@@ -7,12 +7,10 @@
     <string name="nav_header_title">Android Studio</string>
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
-
     <string name="menu_perfil">Perfil</string>
-    <string name="menu_configuracoes">Configurações</string>
+    <string name="action_settings">Configurações</string>
     <string name="menu_food">Alimentos</string>
-    <string name="menu_logout">Sair</string>
+    <string name="action_logout">Sair</string>
     <string name="menu_search">Busca</string>
 <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
