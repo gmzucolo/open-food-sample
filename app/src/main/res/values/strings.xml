@@ -12,6 +12,6 @@
     <string name="menu_food">Alimentos</string>
     <string name="action_logout">Sair</string>
     <string name="menu_search">Busca</string>
-<!-- TODO: Remove or change this placeholder text -->
+    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
